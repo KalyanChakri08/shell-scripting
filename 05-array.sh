@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SUBJECTS=("Engilsh","Maths","Science")
+SUBJECTS=("Engilsh" "Maths" "Science")
 
 #size of above array is 3
 #index are 0,1,2
