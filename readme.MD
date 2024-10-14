@@ -16,7 +16,7 @@ git commit -m "why-you-committed this"
 * Push the changes to Github/Central repo
 ```
 git push -u origin main
-
 ```
-
+```
 git add . ; git commit -m "some-message"; git push -u origin main
+```
