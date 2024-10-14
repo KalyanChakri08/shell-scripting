@@ -7,6 +7,6 @@ SUBJECTS=("Engilsh","Maths","Science")
 
 #list always starts with 0
 
-echo "First subject is: ${SUBJECT[0]}"
-echo "First subject is: ${SUBJECT[1]}"
-echo "First subject is: ${SUBJECT[@]}" #all will print
+echo "First subject is: ${SUBJECTS[0]}"
+echo "First subject is: ${SUBJECTS[1]}"
+echo "First subject is: ${SUBJECTS[@]}" #all will print
