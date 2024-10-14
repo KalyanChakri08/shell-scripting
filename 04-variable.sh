@@ -6,6 +6,6 @@ read USERNAME
 
 echo "Please enter password::"
 
-echo PASSWORD
+read PASSWORD
 
 echo "Username is: $USERNAME, Password is: $PASSWORD"
