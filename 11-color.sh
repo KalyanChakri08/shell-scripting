@@ -1,17 +1,11 @@
 #!/bin/bash
 
 USERID=$(id -u)
-
 TIMESTAMP=$(date +%F-%H-%M-%5)
-
 SCRIPT_NAME=$(echo $e | cut -d "." -f1)
-
 LOGFILE=/tmp/$SCRIPT_NAME-STIMESTAMP.1og
-
 R="\e[31m"
-
 G="\e[32m"
-
 N="\e[0m"
 
 echo "Script started executing at: $TIMESTAMP"
